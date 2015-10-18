@@ -10,6 +10,9 @@
 
 # Use cacheSolve(x) to calculate the inverse matrix (if it is missing), and get it
 
+# I have used this source as a help:
+# https://github.com/ecxr/RProg/blob/master/proj2/cachemean.R
+
 makeCacheMatrix <- function(x = matrix()) 
 {
     # Default value for Inverse is NULL
